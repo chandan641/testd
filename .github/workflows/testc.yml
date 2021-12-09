@@ -30,6 +30,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install build
         pip install -U pytest
+        pytest
     - name: Build package
       run: python -m build
     - name: Publish package
