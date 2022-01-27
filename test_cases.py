@@ -1,6 +1,7 @@
 import math
 from codecoverage import AnnualPackage
 
+#test cases
 def test_pckg():
    df = calculateAnnualPackage()
    assert df['YearlyPackage'][0] == 590000
