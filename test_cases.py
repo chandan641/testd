@@ -3,7 +3,7 @@ from codecoverage import AnnualPackage
 
 #test cases
 def test_pckg():
-   df = calculateAnnualPackage()
+   df = AnnualPackage()
    assert df['YearlyPackage'][0] == 590000
 
 def test_sqrt():
