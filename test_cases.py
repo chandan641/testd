@@ -1,5 +1,5 @@
 import math
-from codecoverageanalysis import calculateAnnualPackage
+from codecoverage import AnnualPackage
 
 def test_pckg():
    df = calculateAnnualPackage()
